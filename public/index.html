@@ -25,7 +25,7 @@
                     </svg>
                 </div>
                 <div id='searchInput'>
-                    <input type='text' autocomplete="off" autocorrect="off" spellcheck="off" placeholder="Search"></input>
+                    <input type='text' autocomplete="off" autocorrect="off" spellcheck="off" placeholder="Search" >
                 </div>
             </div>
         </div>
@@ -49,15 +49,33 @@
         </div>
     </div>
     <div id="app">
-        <div id='photo'></div>
+        <div id='photos'></div>
         <div id='wrapper'>
-            <div id='description'></div>
-            <div id='reservation'></div>
+            <div id='descriptions'>
+                <div id='description'></div>
+                <div id='rootReview'></div>
+                <div id='mockneighbourhood'>
+                    <img src='./neighbour.png'>
+                </div>
+            </div>
+            
+            <div id='reservations'></div>
+           
+        </div>
+        <div id='mockdiv'>
+            <div>
+                <img src='./moreplacestay.png'>
+            </div>
+            <div>
+                <img src='./todonearby.png'>
+            </div>
+            <div>
+                <img src='./bottom.png'>
+            </div>
         </div>
     </div>
-    
-    <script src="http://localhost:3000/listing/1/bundle.js"></script>
-    <script src="http://localhost:3001/listing/bundle.js"></script>
-    <script src="http://localhost:3002/photoCarousel/1/bundle.js"></script>
-  </body>
+    <script src="http://18.221.218.103/:listingID/bundle.js"></script>
+    <script src="http://18.188.235.153/:listingID/bundle.js"></script>
+    <script src="http://3.14.5.145/photoCarouselBundle.js"></script>
+    <!-- <script src="http://13.57.195.146/rooms/:listingID/bundle.js"></script>  </body> -->
 </html>
